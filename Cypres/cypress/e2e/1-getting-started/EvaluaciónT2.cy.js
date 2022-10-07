@@ -4,7 +4,7 @@ import{slowCypressDown}from 'cypress-slow-down'
 slowCypressDown()//parte de la librería
 
 describe('T2Evaluación', ()=>{//realice el agregado de id al código inicial
-    /*it('IniciarSesión', ()=>{
+    it('IniciarSesión', ()=>{
         cy.visit(Cypress.env("base_url"));
         cy.get('#mi-biblioteca').click();
         cy.get('#us').type('Admin');
@@ -144,6 +144,6 @@ describe('T2Evaluación', ()=>{//realice el agregado de id al código inicial
         cy.get('.btn-primary').click();
         cy.get('#mi-biblioteca').click();
         cy.get('#72').click();
-    })*/
+    })
 
 });
